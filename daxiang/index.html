@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="css/animate.min.css"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/angular.min.js">
+   <link rel="stylesheet" href="aa.css">
+    <title>Title</title>
+</head>
+<body>
+
+<!--顶部-->
+<div class="zong">
+<nav class="navbar navbar-default" style="background-color: white;width: 1366px" >
+    <div class="container-fluid" >
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <!--变小的框-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <img src="img/logo.png" style="margin-left: 40px;">
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right" style="margin-top: 15px;margin-left: -200px;left: -100px;">
+                <li style="margin-left: 40px">联系我们</li>
+                <li style="margin-left: 30px;margin-right: 70px">简体中文</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   <!--头部-->
+<div class="header" style="background-color: #F3F3F3;" >
+      <ul class="header_a">
+        <li>
+            我的
+        </li>
+
+          <li class="chu"><a href="" >关于我们
+              <span class="caret"></span>
+          </a>
+              <ul class="ul">
+                  <li>企业简历</li>
+                  <li>投资者</li>
+                  <li>核心优势</li>
+                  <li>团队介绍</li>
+              </ul>
+          </li>
+
+          <li class="chu"><a href="">行业洞察
+              <span class="caret"></span>
+          </a>
+              <ul class="ul_b">
+                  <li>大象新闻</li>
+                  <li>市场趋势 </li>
+
+              </ul>
+          </li>
+
+          <li class="chu"><a href="">产品与解决方案
+              <span class="caret"></span>
+          </a>
+              <ul class="ul_c">
+                  <li>电子发票</li>
+                  <li>手机开发票</li>
+                  <li>发票报销</li>
+                  <li>发票摇奖</li>
+                  <li>发票广告</li>
+                  <li>电子工商</li>
+              </ul>
+          </li>
+
+          <li class="chu"><a href="">合作伙伴
+              <span class="caret"></span>
+          </a>
+              <ul class="ul">
+                  <li>腾讯</li>
+                  <li>金蝶</li>
+                  <li>大账房</li>
+                  <li>优识</li>
+              </ul>
+          </li>
+
+          <li class="chu"><a href="">服务与支持
+              <span class="caret"></span>
+          </a>
+              <ul class="ul_d">
+                  <li>服务专区</li>
+                  <li>联系支持专区</li>
+
+              </ul>
+          </li>
+
+          <li>加入我们</li>
+
+      </ul>
+     <ul class="header_b">
+       <input type="text" value="搜索">
+     </ul>
+</div>
+</div>
+
+<div class="er"></div>
+<!--轮播-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators 指示灯小点-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides轮播 -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="img/lun1.jpg" alt="..." >
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/lun2.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="img/lun3.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls 左右控制-->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">＞</span>-->
+        <span style="font-size: 40px;margin-top: 157px;position: absolute;color: #5C6670"></span>
+        <!--<span class="sr-only">Previous</span>-->
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+        <span style="font-size: 40px;margin-top: 157px;position: absolute;color: #5C6670"></span>
+        <!--<span class="sr-only">Next</span>-->
+    </a>
+</div>
+
+<!--6个方块-->
+
+<div class="donghuaa">
+      <ul class="donghua">
+          <li><p>亿万服务的扎实基础</p><img src="img/1.jpg"><div>关于我们</div> </li>
+          <li><p>亿万服务的扎实基础</p><img src="img/2.jpg"><div>产品与解决方案</div></li>
+          <li><p>亿万服务的扎实基础</p><img src="img/3.jpg"><div>行业洞察</div></li>
+          <li><p>亿万服务的扎实基础</p><img src="img/4.jpg"><div>服务与支持</div></li>
+          <li><p>亿万服务的扎实基础</p><img src="img/5.jpg"><div>合作伙伴</div></li>
+          <li><p>亿万服务的扎实基础</p><img src="img/6.jpg"><div>加入我们</div></li>
+      </ul>
+</div>
+
+
+
+<!--新闻-->
+<div class="news">
+    <div class="news_a">
+        <div>
+            <h3>新闻</h3>
+            <dl>
+                <dt>
+                    <p style="font-size: 18px">24</p>
+                    <small>2017-04</small></dt>
+
+                <dd><a href="">大象慧云信息技术有限公司办公室装修项目招标文件</a></dd>
+            </dl>
+            <dl>
+                <dt>
+                <p style="font-size: 18px">24</p>
+                    <small>2016-10</small>
+                </dt>
+                <dd><a href="">公司电子发票大数据项目招标</a></dd>
+            </dl>
+            <dl>
+                <dt>
+                <p style="font-size: 18px">24</p>
+                    <small>2016-10</small>
+                </dt>
+                <dd><a href="">大象慧云信息技术有限公司电子发票大数据项目中标结果公示</a></dd>
+            </dl>
+        </div>
+        <div><img src="img/7.jpg"/>
+            <p><a href="">大象慧云信息技术有限公司办公区装修项目中标结果公示</a></p>
+        </div>
+        <div><img src="img/7.jpg"/>
+            <p><a href="">深化国税、地税征管体制改革方案公布，国税、地税将深度合作</a></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="jiewei">
+    <ul class="jiewei_header">
+        <li>
+            关于我们
+            <ol>
+                <li>企业简介</li>
+                <li>投资者</li>
+                <li>核心优势</li>
+                <li>团队介绍</li>
+            </ol>
+        </li>
+        <li>行业洞察
+            <ol>
+                <li>大象新闻</li>
+                <li>市场趋势</li>
+            </ol>
+        </li>
+        <li>
+            产品与解决方案
+            <ol>
+                <li>电子发票</li>
+                <li>手机开发票</li>
+                <li>发票报销</li>
+                <li>发票摇奖</li>
+                <li>发票广告</li>
+                <li>电子工商</li>
+            </ol>
+        </li>
+        <li>合作伙伴
+            <ol>
+                <li>腾讯</li>
+                <li>金蝶</li>
+                <li>大账方</li>
+                <li>优食</li>
+            </ol>
+        </li>
+        <li>服务与支持
+            <ol>
+                <li>服务专区</li>
+                <li>联系支持专区</li>
+            </ol>
+        </li>
+        <li>加入我们</li>
+        <li>联系我们</li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--脚步-->
+<ul class="jiao">
+    <li><img src="img/logo.png"> </li>
+    <li>Copyrigth@2016大象慧云 版权所有</li>
+</ul>
+</div>
+</div>
+</body>
+<script>
+    $('.chu').mouseenter(function () {
+        $(this).find('ul').slideDown(100)
+    })
+    $('.chu').mouseleave(function () {
+        $(this).find('ul').slideUp(300)
+    })
+    $('.donghuaa>.donghua>li').mouseenter(function () {
+        $(this).find('p').css('display','block')
+    })
+    $('.donghuaa>.donghua>li').mouseleave(function () {
+        $(this).find('p').css('display','none')
+    })
+</script>
+</html>

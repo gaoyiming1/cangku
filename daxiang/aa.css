@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+.zong {
+  z-index: 100;
+  position: fixed; }
+  .zong .header {
+    margin-top: -20px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around; }
+    .zong .header .header_a {
+      width: 45%;
+      display: flex;
+      justify-content: space-around;
+      list-style: none; }
+      .zong .header .header_a li:hover {
+        background-color: #E1E1E1; }
+      .zong .header .header_a li {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .zong .header .header_a li a {
+          color: black;
+          text-decoration: none; }
+        .zong .header .header_a li .ul {
+          z-index: 100;
+          display: none;
+          position: fixed;
+          margin-top: 78px;
+          width: 10%;
+          margin-left: 20px;
+          background-color: white; }
+          .zong .header .header_a li .ul li {
+            padding-top: 5px;
+            color: #9C9C9C; }
+        .zong .header .header_a li .ul_b {
+          z-index: 100;
+          display: none;
+          position: fixed;
+          margin-top: 55px;
+          width: 10%;
+          margin-left: 20px;
+          background-color: white; }
+          .zong .header .header_a li .ul_b li {
+            padding-top: 5px;
+            color: #9C9C9C; }
+        .zong .header .header_a li .ul_c {
+          z-index: 100;
+          display: none;
+          position: fixed;
+          margin-top: 100px;
+          width: 10%;
+          margin-left: 20px;
+          background-color: white; }
+          .zong .header .header_a li .ul_c li {
+            padding-top: 5px;
+            color: #9C9C9C; }
+        .zong .header .header_a li .ul_d {
+          z-index: 100;
+          display: none;
+          position: fixed;
+          margin-top: 58px;
+          width: 10%;
+          margin-left: 20px;
+          background-color: white; }
+          .zong .header .header_a li .ul_d li {
+            padding-top: 5px;
+            color: #9C9C9C; }
+    .zong .header .header_b {
+      width: 35%;
+      padding: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .zong .header .header_b input {
+        width: 140px;
+        height: 30px; }
+
+.donghuaa {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .donghuaa .donghua {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .donghuaa .donghua li {
+      width: 33%;
+      padding: 1px;
+      overflow: hidden;
+      position: relative; }
+      .donghuaa .donghua li p {
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 100px;
+        display: none;
+        z-index: 100; }
+      .donghuaa .donghua li > img {
+        width: 100%; }
+      .donghuaa .donghua li img:hover {
+        transform: scale(1.1);
+        transition: all 1s ease 0s; }
+      .donghuaa .donghua li div {
+        position: absolute;
+        margin-top: -230px;
+        color: white;
+        margin-left: 10px;
+        font-size: 20px; }
+    .donghuaa .donghua li:nth-of-type(1) div {
+      color: black; }
+    .donghuaa .donghua li:nth-of-type(6) div {
+      color: black; }
+
+.news {
+  width: 100%;
+  background: #F5F5F5;
+  margin-top: 24px;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center; }
+  .news .news_a {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around; }
+    .news .news_a div {
+      width: 30%; }
+      .news .news_a div dl {
+        width: 100%;
+        height: 47px; }
+      .news .news_a div dt {
+        width: 50px;
+        color: #fff;
+        float: left;
+        text-align: center;
+        background: #7F868E;
+        margin-right: 12px; }
+      .news .news_a div dd a {
+        color: black; }
+    .news .news_a div:nth-of-type(2) {
+      width: 30%;
+      overflow: hidden; }
+      .news .news_a div:nth-of-type(2) p {
+        padding: 20px 0; }
+        .news .news_a div:nth-of-type(2) p a {
+          color: black; }
+    .news .news_a div:nth-of-type(3) {
+      width: 30%;
+      overflow: hidden; }
+      .news .news_a div:nth-of-type(3) p {
+        padding: 20px 0; }
+        .news .news_a div:nth-of-type(3) p a {
+          color: black; }
+
+.footer_a {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .footer_a .footer_b {
+    width: 80%;
+    display: flex;
+    justify-content: space-around; }
+    .footer_a .footer_b div {
+      width: 18%;
+      border: 1px solid black; }
+
+.jiewei {
+  width: 100%;
+  height: 200px; }
+  .jiewei .jiewei_header {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    .jiewei .jiewei_header ol > li {
+      color: #9C9C9C;
+      padding: 5px 0; }
+      .jiewei .jiewei_header ol > li li:hover {
+        border-bottom: 1px solid aquamarine; }
+
+.er {
+  width: 100%; }
+
+.jiao {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around; }
+  .jiao li:nth-of-type(1) {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .jiao li:nth-of-type(2) {
+    width: 35%;
+    display: flex;
+    align-items: center; }
+
+@media all and (max-width: 667px) {
+  .donghuaa {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .donghuaa .donghua {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .donghuaa .donghua li {
+        width: 100%;
+        padding: 1px;
+        overflow: hidden;
+        position: relative; }
+        .donghuaa .donghua li > img {
+          width: 100%; }
+        .donghuaa .donghua li img:hover {
+          transform: scale(1.1);
+          transition: all 1s ease 0s; }
+        .donghuaa .donghua li p {
+          position: absolute;
+          margin-left: 200px;
+          margin-top: 110px; }
+        .donghuaa .donghua li div {
+          position: absolute;
+          margin-top: -350px; }
+
+  .news {
+    width: 100%;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center; }
+    .news .news_a {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .news .news_a div {
+        width: 100%; }
+        .news .news_a div dl {
+          width: 100%;
+          height: 47px; }
+        .news .news_a div dt {
+          width: 50px;
+          color: #fff;
+          float: left;
+          text-align: center;
+          background: #7F868E;
+          margin-right: 12px; }
+        .news .news_a div dd a {
+          color: black; }
+      .news .news_a div:nth-of-type(2) {
+        width: 100%;
+        overflow: hidden; }
+        .news .news_a div:nth-of-type(2) p {
+          padding: 20px 0; }
+          .news .news_a div:nth-of-type(2) p a {
+            color: black; }
+      .news .news_a div:nth-of-type(3) {
+        width: 100%;
+        overflow: hidden; }
+        .news .news_a div:nth-of-type(3) p {
+          padding: 20px 0; }
+          .news .news_a div:nth-of-type(3) p a {
+            color: black; }
+
+  .jiewei {
+    width: 100%;
+    height: 200px; }
+    .jiewei .jiewei_header {
+      width: 80%;
+      height: 200px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .jiewei .jiewei_header li {
+        margin-top: 10px;
+        height: 40px;
+        font-size: 18px; }
+        .jiewei .jiewei_header li ol {
+          display: none; }
+
+  .jiao {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; }
+    .jiao li:nth-of-type(1) {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center; }
+    .jiao li:nth-of-type(2) {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      padding: 20px; } }
+
+/*# sourceMappingURL=aa.css.map */
